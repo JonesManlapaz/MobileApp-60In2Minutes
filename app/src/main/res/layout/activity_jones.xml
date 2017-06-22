@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jones.jonesmanlapazapplication.Jones_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageViewClock"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/textView"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/clock" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="14dp"
+                android:text="60 in 2 minutes"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#ffff00"
+                android:textSize="40sp"
+                android:textStyle="normal|bold|italic" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageViewClock"
+                android:layout_marginTop="21dp"
+                android:text="Developed by:\n Jones Manlapaz\n jonesmanlapaz@gmail.com\n March 25, 2017\n \nThank you for all the inspiration, support and motivation."
+                android:textAlignment="center"
+                android:textColor="#ffff00"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Backgound Music:\n http://www.bensound.com"
+                android:layout_marginTop="21dp"
+                android:textAlignment="center"
+                android:textColor="#ffff00"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/textViewThanks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="21dp"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:textColor="#ffd11a"
+                android:text="Beta Testers" />
+
+            <TextView
+                android:id="@+id/textViewTesters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beta Testers"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="#00ff00" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

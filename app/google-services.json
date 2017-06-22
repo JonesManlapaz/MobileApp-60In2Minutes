@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "754293136057",
+    "firebase_url": "https://sixty-in-two-minutes.firebaseio.com",
+    "project_id": "sixty-in-two-minutes",
+    "storage_bucket": "sixty-in-two-minutes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754293136057:android:3f0186a611f75552",
+        "android_client_info": {
+          "package_name": "com.jones.jonesmanlapazapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754293136057-4t9s2aghaaepn58gltkrsqc57f00fol2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jones.jonesmanlapazapplication",
+            "certificate_hash": "35ca75c08a0b164729278cde759507edeebb826a"
+          }
+        },
+        {
+          "client_id": "754293136057-dgadg8amn5ioite3q4p6qmsr6p6nrklj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqfe3vTfiRcgnbZsgISbTZcqUoDUno8dk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754293136057-dgadg8amn5ioite3q4p6qmsr6p6nrklj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
